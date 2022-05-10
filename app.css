@@ -1,0 +1,103 @@
+.container {
+  background: #121417;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  background: #252d37;
+  width: 317px;
+  height: 325px;
+  border-radius: 25px;
+  padding: 19px;
+  font-family: "Overpass", sans-serif;
+}
+
+.button {
+  background-color: #333a42;
+  padding: 11px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.button1 {
+  border-radius: 50%;
+}
+
+.button2 {
+  border-radius: 50%;
+  font-size: 11px;
+  padding: 16px;
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button3 {
+  background: #f97725;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 60px;
+  width: 309px;
+  height: 33px;
+  margin-top: 25px;
+}
+
+.button2:hover {
+  background-color: #f97725;
+}
+
+h1 {
+  margin-top: 18px;
+}
+
+p {
+  margin-top: -8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.illustrater {
+  object-fit: cover;
+  object-position: center center;
+  width: 123px;
+  margin: 20px;
+}
+
+.button4 {
+  background-color: #333a42;
+  color: #f97725;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.thanks-p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.thanks-h {
+  font-size: 30px;
+}
+
+@media (max-width: 392px) {
+  .container .container1 {
+    max-width: 90%;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
